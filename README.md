@@ -21,10 +21,16 @@ These are the projects that are currently under active development.
 | [`contracts`](https://github.com/arras-labs/contracts) | Authors and tests the smart contracts. Produces ABIs as build artefacts for other services. |
 | [`deploy`](https://github.com/arras-labs/deploy) | Runs the full system locally and defines deployment manifests for staging/production. |
 
-### Archived Repositories
+### Future & Archived Repositories
 
-These projects are not in active development but are kept for historical or reference purposes.
-*(You can list your archived repositories here)*
+These projects are currently archived but are planned for future development as the platform grows.
+
+| Repository | Description |
+| :--- | :--- |
+| [`docs`](https://github.com/arras-labs/docs) | Central documentation for architecture, ADRs, and user guides. |
+| [`shared-schemas`](https://github.com/arras-labs/shared-schemas) | Shared data schemas and types (e.g., TypeScript, JSON Schema) for consistency across services. |
+| [`comms-service`](https://github.com/arras-labs/comms-service) | A dedicated service for handling messaging, notifications, and event-driven communication. |
+| [`template-service`](https://github.com/arras-labs/template-service) | A private template for bootstrapping new services with our standard project structure. |
 
 ## Getting Started
 
@@ -65,5 +71,4 @@ graph TD
 ```
 
 *(This diagram reflects the interactions between the `web-app`, `backend-api`, `contracts`, and `deploy` repositories.)*
-
 
